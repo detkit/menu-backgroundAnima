@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  background-color: #111;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  color: #222;
+}
+
+.star::before {
+  content: "\f005";
+  font-family: fontAwesome;
+}
+
+.star.animate {
+  color: #d06;
+  text-shadow: 0 0 5px #d06, 0 0 20px #d06, 0 0 50px #d06;
+}

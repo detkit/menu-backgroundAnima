@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #559049, #596af6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  background-color: #fff;
+  padding: 50px;
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+p::selection {
+  background: #fac88e;
+}
+
+h1::selection {
+  background: #fac88e;
+}
